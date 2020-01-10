@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration device="PIC24FJ64GB002" mcc_version="v2.25.2">
+    <managers>
+        <manager generated="false" name="Pin Manager" reloadPin="manual">
+            <setting name="package" option="QFN28"/>
+            <setting name="sorting" option="true"/>
+        </manager>
+        <manager generated="false" name="System" reloadPin="manual">
+            <initializer comment="" name="Initialize">
+                <setting name="CPDIV" option="1:1" register="CLKDIV"/>
+                <setting name="RCDIV" option="FRC/2" register="CLKDIV"/>
+                <setting name="DOZE" option="1:8" register="CLKDIV"/>
+                <setting name="DOZEN" option="disabled" register="CLKDIV"/>
+                <setting name="ROI" option="disabled" register="CLKDIV"/>
+            </initializer>
+            <setting name="RTCOSC" option="SOSC"/>
+            <setting name="DSWDTEN" option="ON"/>
+            <setting name="DSWDTOSC" option="LPRC"/>
+            <setting name="DSBOREN" option="ON"/>
+            <setting name="DSWDTPS" option="DSWDTPSF"/>
+            <setting name="WPCFG" option="WPCFGDIS"/>
+            <setting name="WPDIS" option="WPDIS"/>
+            <setting name="WPFP" option="WPFP63"/>
+            <setting name="SOSCSEL" option="SOSC"/>
+            <setting name="WPEND" option="WPENDMEM"/>
+            <setting name="WUTSEL" option="LEG"/>
+            <setting name="POSCMOD" option="NONE"/>
+            <setting name="FCKSM" option="CSDCMD"/>
+            <setting name="I2C1SEL" option="PRI"/>
+            <setting name="OSCIOFNC" option="OFF"/>
+            <setting name="PLL96MHZ" option="ON"/>
+            <setting name="PLLDIV" option="DIV12"/>
+            <setting name="IOL1WAY" option="ON"/>
+            <setting name="FNOSC" option="FRCDIV"/>
+            <setting name="IESO" option="ON"/>
+            <setting name="WDTPS" option="PS32768"/>
+            <setting name="GCP" option="OFF"/>
+            <setting name="FWDTEN" option="ON"/>
+            <setting name="ICS" option="PGx1"/>
+            <setting name="WINDIS" option="OFF"/>
+            <setting name="JTAGEN" option="ON"/>
+            <setting name="FWPSA" option="PR128"/>
+            <setting name="GWRP" option="OFF"/>
+            <setting name="Primary Oscillator" option="3000000"/>
+            <setting name="Secondary Oscillator" option="31000"/>
+            <setting name="generateConfigBits" option="true"/>
+        </manager>
+    </managers>
+</configuration>
